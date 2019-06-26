@@ -1,0 +1,27 @@
+body{
+  background-color: lightblue;
+  margin-left: 20px;
+}
+
+h1{
+  color: blue;
+  text-align: center;
+}
+
+input[type=submit]{
+  background-color: red;
+  color: white;
+}
+
+select{
+  width: 40%;
+  padding: 16px 20px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+input[type=text]{
+  width: 40%;
+  border-radius: 4px;
+  background-color: white;
+}

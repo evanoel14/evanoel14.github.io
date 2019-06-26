@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href = "styles.css" rel = "stylesheet">
+        <title>
+            Welcome!
+        </title>
+    </head>
+    <body>
+        <h1>
+        Fill out the following form:
+        </h1>
+      <form>
+        <div>
+          First name: <input type="text" name="FirstName" placeholder="First"><br>
+          Last name: <input type="text" name="LastName" placeholder="Last"><br>
+          <br>
+        </div>
+          
+        <div>
+          Gender:<br>
+          <label for="male">Male</label>
+          <input name = "gender" type="radio"id="male" value="male">
+          <br>
+          <label for="female">Female</label>
+          <input name = "gender" type="radio"id="female" value="female">           
+          <br>
+          <label for="other">Other</label>
+          <input name = "gender" type="radio" id="other" value="other">
+          <br><br>
+        </div>
+        
+        <div>
+          Graduating year:
+          <select>
+            <option value="empty"> </option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+          </select>
+          <br><br>
+        </div>
+        
+        <div>
+          <button class = "btn btn-outline-danger">Submit</button>
+      </div>
+          
+      <div>
+          <p>Any questions? Email us at eva_noel@asl.org</p>
+      <div>
+        </form>
+    </body>
+</html>
